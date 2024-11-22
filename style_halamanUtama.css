@@ -1,0 +1,38 @@
+.body {
+    background: linear-gradient(45deg, #0f3443, #34e89e);
+    color: white;
+}
+
+.about-us {
+    background-color: #f8f9fa;
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: linear-gradient(45deg, #34e89e, #0f3443);
+    color: white;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: bold;
+}
+
+.navbar-dark .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #34e89e;
+}
+
+.card-shadow{
+    background-color: #34e89e, #0f3443;
+    text-align: justify;
+    text-decoration-color: #f8f9fa;
+}

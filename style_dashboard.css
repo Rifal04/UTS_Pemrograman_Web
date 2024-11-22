@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(135deg, #0f3443, #34e89e);
+    color: #f8f9fa;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #34e89e, #0f3443);
+}
+
+.navbar-brand, .nav-link, .btn-danger {
+    color: white !important;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.navbar-brand:hover, .nav-link:hover, .btn-danger:hover {
+    color: #0f3443 !important;
+    transform: scale(1.05);
+}
+
+h2 {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #34e89e;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #34e89e;
+    color: white;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #0f3443;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #0f3443;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #0f3443, #34e89e);
+    border: none;
+    color: white;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background: #34e89e;
+    transform: scale(1.05);
+}
+
+.modal-header, .modal-footer {
+    background: linear-gradient(135deg, #0f3443, #34e89e);
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-body {
+color: black;
+}
+
+.btn-secondary {
+    background: #c04444;
+    border: none;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #a03333;
+    transform: scale(1.05);
+}
+
+footer {
+    background: linear-gradient(45deg, #34e89e, #0f3443);
+    color: white;
+}

@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #0f3443, #34e89e);
+    font-family: Arial, sans-serif;
+}
+
+#login-card, #register-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 30px;
+    width: 350px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-label {
+    color: #ffffff;
+}
+
+.input-group-text {
+    background-color: #ffffff;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
